@@ -24,6 +24,13 @@ export default {
         },
       },
     },
+    
+  },
+  variants: {
+    extend: {
+      borderColor: ['focus'],
+      ringColor: ['focus'],
+    },
   },
   plugins: [],
 }
